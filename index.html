@@ -79,7 +79,9 @@
         <section class="projects-section" id="projects" aria-labelledby="projects-title">
             <div class="section-heading">
                 <p class="eyebrow">SELECTED WORK</p>
+
                 <h2 id="projects-title">Projects</h2>
+
                 <p>
                     A selection of projects I have built while studying
                     programming and web development.
@@ -87,19 +89,21 @@
             </div>
 
             <div class="projects-grid">
+
+                <!-- PROJECT 1 -->
                 <article class="project-card">
                     <div class="project-number">01</div>
 
-                    <h3>Profile Card</h3>
+                    <h3>Personal Profile Page</h3>
 
                     <p>
-                        A responsive profile card project built while learning
-                        the fundamentals of HTML, CSS, responsive layouts and
-                        interactive JavaScript.
+                        My first web development project, created with HTML and
+                        CSS while learning page structure, styling and basic
+                        responsive design.
                     </p>
 
                     <a
-                        href="https://didar2007.github.io/iwamad-practice/"
+                        href="https://github.com/didar2007/iwamad-practice/tree/week-01"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -107,19 +111,20 @@
                     </a>
                 </article>
 
+                <!-- PROJECT 2 -->
                 <article class="project-card">
                     <div class="project-number">02</div>
 
-                    <h3>Personal Web App</h3>
+                    <h3>React + TypeScript Profile Card</h3>
 
                     <p>
-                        A React and TypeScript project with multiple pages,
-                        reusable components, routing and a persistent likes
-                        counter.
+                        A profile card developed with React and TypeScript,
+                        using reusable components and a modern frontend
+                        project structure.
                     </p>
 
                     <a
-                        href="https://didar2007.github.io/iwamad-practice/"
+                        href="https://github.com/didar2007/iwamad-practice/tree/week-03"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -127,32 +132,36 @@
                     </a>
                 </article>
 
+                <!-- PROJECT 3 -->
                 <article class="project-card">
                     <div class="project-number">03</div>
 
-                    <h3>Tourist Agency Website</h3>
+                    <h3>React Portfolio</h3>
 
                     <p>
-                        A university project focused on designing a digital
-                        solution for a tourist agency, including its structure,
-                        users and core business requirements.
+                        A multi-page React project with React Router, reusable
+                        components, a shared likes counter, testing and
+                        GitHub Pages deployment.
                     </p>
 
                     <a
-                        href="https://github.com/didar2007"
+                        href="https://github.com/didar2007/iwamad-practice/tree/week-04"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         View project <span aria-hidden="true">→</span>
                     </a>
                 </article>
+
             </div>
         </section>
 
         <section class="contact-section" id="contact" aria-labelledby="contact-title">
             <div class="section-heading">
                 <p class="eyebrow">GET IN TOUCH</p>
+
                 <h2 id="contact-title">Contact</h2>
+
                 <p>
                     Have a project idea or want to get in touch? Send me a
                     message using the form below.
@@ -160,8 +169,10 @@
             </div>
 
             <form class="contact-form" id="contact-form" novalidate>
+
                 <div class="form-group">
                     <label for="name">Name</label>
+
                     <input
                         type="text"
                         id="name"
@@ -169,11 +180,17 @@
                         autocomplete="name"
                         required
                     >
-                    <p class="form-error" id="name-error" aria-live="polite"></p>
+
+                    <p
+                        class="form-error"
+                        id="name-error"
+                        aria-live="polite"
+                    ></p>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
+
                     <input
                         type="email"
                         id="email"
@@ -181,18 +198,29 @@
                         autocomplete="email"
                         required
                     >
-                    <p class="form-error" id="email-error" aria-live="polite"></p>
+
+                    <p
+                        class="form-error"
+                        id="email-error"
+                        aria-live="polite"
+                    ></p>
                 </div>
 
                 <div class="form-group">
                     <label for="message">Message</label>
+
                     <textarea
                         id="message"
                         name="message"
                         rows="6"
                         required
                     ></textarea>
-                    <p class="form-error" id="message-error" aria-live="polite"></p>
+
+                    <p
+                        class="form-error"
+                        id="message-error"
+                        aria-live="polite"
+                    ></p>
                 </div>
 
                 <button class="submit-button" type="submit">
@@ -204,12 +232,15 @@
                     id="form-success"
                     aria-live="polite"
                 ></p>
+
             </form>
         </section>
     </main>
 
     <footer class="site-footer">
-        <p>© 2026 Didar Kalabayev. Built with HTML, CSS and JavaScript.</p>
+        <p>
+            © 2026 Didar Kalabayev. Built with HTML, CSS and JavaScript.
+        </p>
     </footer>
 
     <script src="script.js"></script>
